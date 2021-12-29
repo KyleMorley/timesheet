@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "username": "Admin",
+      "password": "Admin",
+      "title": "Contracts",
+      "firstName": "Admin",
+      "lastName": "Admin",
+      "administrator": true,
+      "id": 3
+    }
+  ],
+  "timesheets": []
+}

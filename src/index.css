@@ -1,13 +1,114 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    padding-bottom: 100px;
+}
+
+.header-btn {
+    margin-left: auto;
+}
+
+/* Login Page Extra Styles  */
+.container-login {
+    width: 100vw;
+    max-height: calc(100vh + 150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-page {
+    padding-top: 4rem;
+    width: 400px;
+    height: 550px;
+}
+
+/* Dashboard Styles */
+.dashboard {
+    height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.profile {
+    width: 100%;
+    padding-left: 1rem;
+}
+
+/* Profile Styles */
+.profile {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* TimeSheet Styles */
+.dash-form {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.dash-form form {
+    width: 360px;
+    height: 100%;
+    border: none;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.time-input {
+    width: 5rem;
+}
+
+/* Additional list styles */
+.employee-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.list-group {
+    width: 360px;
+    margin-bottom: 2rem;
+}
+
+.list-group-item {
+    width: 100%;
+}
+
+
+/* Miscelaneous */
+.btn-toggle {
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+.react-date-picker__wrapper {
+    border: 2px solid #000;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+@media(min-width: 590px) {
+    .dash-form form {
+        min-width: 550px;
+        padding: 1.5rem;
+    }
+
+    .list-group {
+        min-width: 550px;
+    }
 }
