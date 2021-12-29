@@ -6,6 +6,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+Installs dependencies.
+
+### `npm run server`
+Runs json server on port 4000.\
+Login with username: Admin and Password: Admin
+
 ### `npm start`
 
 Runs the app in the development mode.\
